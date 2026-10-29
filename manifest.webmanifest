@@ -1,0 +1,23 @@
+{
+  "name": "Tikè Lakay",
+  "short_name": "Tikè Lakay",
+  "description": "Evènman Ayiti: achte tikè, kreye evènman, envitasyon. Yon platfòm HaitiBiznis Technologies.",
+  "lang": "ht",
+  "start_url": "./?source=app",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#00209F",
+  "theme_color": "#00209F",
+  "categories": ["entertainment", "events", "lifestyle"],
+  "icons": [
+    { "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Tikè Mwen", "url": "./my-tickets.html", "icons": [{ "src": "assets/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Kreye Evènman", "url": "./create-event.html", "icons": [{ "src": "assets/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Kontwòl Pòt", "url": "./check.html", "icons": [{ "src": "assets/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
